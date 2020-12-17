@@ -1,0 +1,73 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+</style>
+
+{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+h1, h1, h3, h4, h5, h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1.5px;
+}  
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*Estilos del header*/
+.header{
+    height: :60px;
+}
+
+.header, .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .icon-menu{
+    margin: 5px;
+}
+.icon-menu{
+    display: block;
+    width: 40 px;
+    height: 40 px;
+    font-size: 30 px;
+    background: #800040;
+    color : #fff;
+    text-align: : center;
+    line-height: 45 px;
+    border-radius: 5 px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav{
+    position: absolute;
+    top:60px;
+    left:0;
+    margin: 100%;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__link{
+    display: :block;
+    padding: 20 px;
+    background: #800040;
+    text-decoration:none;
+    color: #fff;
+}
+
+.menu__link{
+    background: white;
+    color: #800040;
+}
