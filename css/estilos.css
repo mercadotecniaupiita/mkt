@@ -1,8 +1,6 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-</style>
 
-{
+*{
     box-sizing: border-box;
 }
 
@@ -10,21 +8,23 @@ img{
     display: block;
     max-width: 100%;
 }
-h1, h1, h3, h4, h5, h6{
-    font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 1.5px;
-}  
 
 body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/*Estilos del header*/
+h1, h1, h3, h4, h5, h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1.5px;
+}  
+
+
+/*----------------------------------Estilos del header*-----------------------------*/
 .header{
     height: :60px;
 }
 
-.header, .contenedor{
+.header .contenedor{
     display: flex;
     justify-content: space-between;
 }
@@ -34,40 +34,49 @@ body{
 }
 .icon-menu{
     display: block;
-    width: 40 px;
-    height: 40 px;
-    font-size: 30 px;
+    width: 30px;
+    height: 35px;
+    font-size: 30px;
     background: #800040;
     color : #fff;
     text-align: : center;
-    line-height: 45 px;
-    border-radius: 5 px;
+    line-height: 45px;
+    border-radius: 5px;
     margin-left: auto;
     cursor: pointer;
 }
-
+/*----------------------------------Estilos del menu*-----------------------------*/
 .nav{
     position: absolute;
     top:60px;
-    left:0;
-    margin: 100%;
+    left : 0;
+    width: 100%;
+    transition: all 0.4s;
 }
 
 .menu{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: : none;
+    padding :0;
+    margin:0;
 }
 
 .menu__link{
-    display: :block;
-    padding: 20 px;
+    display: block;
+    padding: 20px;
     background: #800040;
-    text-decoration:none;
+    text-decoration: none;
     color: #fff;
 }
-
-.menu__link{
+.menu__link:hover, .select{
     background: white;
     color: #800040;
+}
+.mostrar{
+    left:0;
+}
+/*----------------------------------Estilos del BANNER*-----------------------------*/
+.banner{
+  margin-top: -60;
+    position: relative;
+    z-index:-1000;
 }
