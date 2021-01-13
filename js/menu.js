@@ -1,4 +1,4 @@
-var btnMenu = document.getElementById('btn-menu');
-var nav = document.getElementById('nav');
-
-btnMenu.addEventListener('click', function () {nav.classList.toggle('mostrar');})
+document.getElementById("btnmenu").addEventListener("click", function(){
+"use strict";
+document.getElementById("menu").classList.toggle("mostrar");
+});
