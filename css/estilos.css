@@ -82,7 +82,7 @@ h1, h1, h3, h4, h5, h6{
     top: 60px;
     left: 0;
     width: 100%;
-    background: rgb(254,254,254,.85);
+    background: rgb(1,1,1,.85);
     padding: 0;
     margin: 0;
     list-style: none;
@@ -103,10 +103,10 @@ h1, h1, h3, h4, h5, h6{
 }
 
 .menu__link--select{
-   background: black; 
+   background: #800040; 
 }
 .mostrar{
-    height: 196px;
+    height: 260px;
 }
 /*---------------------------------Estilos principales---------------------------------*/
 .group--color .container{
@@ -114,7 +114,10 @@ h1, h1, h3, h4, h5, h6{
     color: white;
     padding:5px;
     text-align: center;
+    font-size: 1.2em;
+    
 }
+
 
 .main__proposito .container{
     text-align: center;
@@ -128,15 +131,30 @@ h1, h1, h3, h4, h5, h6{
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
-    
+}
+
+.main__separador .container{
+    padding: 2px;
+    background: black;
 }
 
 .column__title{
     font-size: 1.3em;
 }
 
+.main__about__description .column:nth-child(1){
+    padding: 10px;
+    text-align: justify-all;
+}
+
+.main__about__description .column:nth-child(2){
+    padding: 10px;
+    text-align: justify-all;
+}
+
 .main__about__description .column:nth-child(3){
     padding: 10px;
+    text-align: justify-all;
 }
 
 /*---------------------------------Estilos del footer---------------------------------*/
