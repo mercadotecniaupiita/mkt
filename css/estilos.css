@@ -1,12 +1,9 @@
 @import url('https://www.dafont.com/caviar-dreams.font');
-*{
-    box-sizing: border-box;
-}
 
 body{
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
-    background: url(../imagenes/Fondo2.jpg)
+    /*background: url(../imagenes/Fondo2.jpg)*/
 }
     
 /*---------------------------------Estilos base---------------------------------*/
@@ -38,91 +35,51 @@ h1, h1, h3, h4, h5, h6{
 
 /*---------------------------------Estilos header---------------------------------*/
 
-.main-header{
-    width: 100%;
-}
-.logo{
-    font-size: 1.8em;
-    color: #800040;
-    padding: 10px;
-}
 
-.main-header__contactInfo__phone{
-    background: #DE423A;
-    color:white;
-    margin:0 auto;
-    padding: 10px;
-}
-
-.main-header [class*="icon-"]:before{
-    position: relative;
-    top : 2px;
-    right: 5px;
-}
 /*---------------------------------Estilos main---------------------------------*/
-.main-nav{
-    width: 100%;
-    position: relative;
-    z-index: 2000;
-    padding: 10px;
 
-}
-.icon-menu{
-    display: block;
-    color: black;
-    border-radius: 3px;
-    width: 40px;
-    height: 40px;  
-    line-height: 42px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 1.5em;
-}
-
-.menu{
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background: rgb(1,1,1,.85);
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: left;
-    height: 0;
-    overflow:hidden;
-}
-
-.menu__link{
-    display: block;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.menu__link:hover{
-    background: #800040;
-}
-
-.menu__link--select{
-   background: #800040; 
-}
-.mostrar{
-    height: 308px;
-}
 /*---------------------------------Estilos principales---------------------------------*/
 .group--color .container{
-    background: #800040;
-    color: white;
-    padding:5px;
+    background: #DDE9FF;
+    color: black;
+    padding:20px;
     text-align: center;
     font-size: 0.9em;
     
 }
 
+.group--color2 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
 
+.unidad1_e2 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+.unidad1_e1 .container{
+    background: #DDE9FF;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
 .main__title{
     font-size: 20px; 
+}
+
+.uni1_title{
+    font-size: 20px; 
+    text-align: center;
 }
 
 .main__txt{
@@ -151,6 +108,10 @@ h1, h1, h3, h4, h5, h6{
     font-size: 1.3em;
 }
 
+.column__txt2{
+    font-size: 0.5em;
+}
+
 .main__about__description .column:nth-child(1){
     padding: 10px;
     text-align: justify-all;
@@ -170,14 +131,14 @@ h1, h1, h3, h4, h5, h6{
     display: block;
     text-align: center;
     text-decoration: none;
-    background: #474b4e;
+    background: #FF7C7C;
     margin: 10px auto;
     color: white;
     padding: 15px;
     width: 150px;
-    border-color: #9b9b9b;
+    /*border-color: #9b9b9b;
     border-width: 3px;
-    border-style: solid;
+    border-style: solid;*/
     border-radius: 35px;
 }
 
@@ -186,8 +147,8 @@ h1, h1, h3, h4, h5, h6{
 }
 /*---------------------------------Estilos del footer---------------------------------*/
 .main-footer{
-    background: #222;
-    color: white;
+    background: #F1F1F1;
+    color: black;
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -203,16 +164,18 @@ h1, h1, h3, h4, h5, h6{
 .column--33{
     width:33%;
 }
-.column--20{
-    width:20%;
+.column--10{
+    width:10%;
 }
-.column--60{
-    width:50%;
+.column--40{
+    width:40%;
 }
-
+.column--80{
+    width:80%;
+}
 /*---------------------------------Estilos del banner---------------------------------*/
 .banner{
-    margin-top: -60px;
+    margin-top: -10px;
     position: relative;
 }
 
@@ -264,68 +227,89 @@ h1, h1, h3, h4, h5, h6{
 }
 
 
-
-
-/*---------------------------------Estilos de estetica---------------------------------*/
-
-.circulotem {
-	width: 15rem;
-	height: 15rem;
-	border-radius: 50%;
-	background: #8277a9;
-    opacity: 0.6;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-  margin:0px auto;
-  padding:3%
+/*---------------------------------Estilos de menu 2---------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.circulotem2 {
-	width: 15rem;
-	height: 15rem;
-	border-radius: 50%;
-	background: #a3c7d7;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-  margin:0px auto;
-  padding:8%
+header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color:  gray;
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
 }
 
-.circulotem3 {
-	width: 15rem;
-	height: 15rem;
-	border-radius: 50%;
-	background: #c4a0a1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-  margin:0px auto;
-  padding:%
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+header .contenedor {
+    display: table;
+}
+#menu-bar{
+    display: none;
+    
 }
 
-.circulotem > h2 {
-	color: white;
-	font-size: 1em;
-	font-weight: bold;
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 7px 15px;
+    cursor: pointer;
+    
+}
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgba(255,255,255,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%)
 }
 
-.circulotem2 > h2 {
-	color: white;
-	font-size: 1em;
-	font-weight: bold;
+.menu a{
+    display: block;
+    color: gray;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 
-.circulotem3 > h2 {
-	color: white;
-	font-size: 1em;
-	font-weight: bold;
+.menu a:hover{
+    background: rgba(221,233,255,0.3);
+}
+h1{
+    float: left;
 }
 
-.circular--square {
-  border-radius: 50%;
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+
+@media (min-width:1024px){
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display:flex;
+        background: white;
+        
+    }
+
+    header label{
+        display: none;
+    }
+    
 }
