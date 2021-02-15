@@ -296,7 +296,7 @@ h1{
     transform: translateX(0%);
 }
 
-@media (min-width:1024px){
+@media (min-width:1px){
     .menu {
         position: static;
         width: auto;
