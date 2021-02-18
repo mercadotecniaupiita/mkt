@@ -56,8 +56,8 @@ h1, h1, h3, h4, h5, h6{
     font-size: 0.9em;
     
 }
-
-.unidad1_e2 .container{
+/*---------------------------------Estilos Inicio---------------------------------*/
+.inicio_v1 .container{
     background: white;
     color: black;
     padding:20px;
@@ -65,14 +65,72 @@ h1, h1, h3, h4, h5, h6{
     font-size: 0.9em;
     
 }
-.unidad1_e1 .container{
-    background: #DDE9FF;
+
+.inicio_v2 .container{
+    background: rgb(131,132,132,0.5);
     color: black;
     padding:20px;
     text-align: center;
     font-size: 0.9em;
     
 }
+
+/*---------------------------------Estilos unidad 1---------------------------------*/
+.unidad1_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad1_v2 .container{
+    background: rgb(130,119,169,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+/*---------------------------------Estilos unidad 2---------------------------------*/
+.unidad2_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad2_v2 .container{
+    background: rgb(163,199,215,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+
+/*---------------------------------Estilos unidad 3---------------------------------*/
+.unidad3_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad3_v2 .container{
+    background: rgb(196,160,161,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+
+
 .main__title{
     font-size: 20px; 
 }
@@ -109,7 +167,10 @@ h1, h1, h3, h4, h5, h6{
 }
 
 .column__txt2{
-    font-size: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    
 }
 
 .main__about__description .column:nth-child(1){
@@ -172,6 +233,9 @@ h1, h1, h3, h4, h5, h6{
 }
 .column--80{
     width:80%;
+}
+.column--30{
+    width:30%;
 }
 /*---------------------------------Estilos del banner---------------------------------*/
 .banner{
@@ -554,5 +618,50 @@ h1{
     left: 10px;
 }
 
+/*---------------------------------Estilos de texto---------------------------------*/
+
+.Txt_Content{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.Txt_Title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
 
 
+.Txt_Content2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Txt_Title2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Txt_ContentRecursos{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
