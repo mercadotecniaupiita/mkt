@@ -257,6 +257,9 @@ h1, h1, h3, h4, h5, h6{
 .column--90{
     width:90%;
 }
+.column--5{
+    width:5%;
+}
 /*---------------------------------Estilos del banner---------------------------------*/
 .banner{
     margin-top: -10px;
@@ -697,6 +700,7 @@ a:hover{
 .col{
     flex-basis: 50%;
     min-width: 250px;
+    align-items: center;
 }
 
 .feature-img{
@@ -734,5 +738,5 @@ a:hover{
 
 .content{
     width: 100%;
-    margin-left: 150px;
+    margin: auto;
 }
