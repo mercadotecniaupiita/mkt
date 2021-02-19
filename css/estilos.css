@@ -130,6 +130,23 @@ h1, h1, h3, h4, h5, h6{
     font-size: 0.9em; 
 }
 
+/*---------------------------------Estilos recursos---------------------------------*/
+.recursos_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.recursos_v2 .container{
+    background: rgb(173,232,191,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
 
 .main__title{
     font-size: 20px; 
@@ -236,6 +253,9 @@ h1, h1, h3, h4, h5, h6{
 }
 .column--30{
     width:30%;
+}
+.column--90{
+    width:90%;
 }
 /*---------------------------------Estilos del banner---------------------------------*/
 .banner{
@@ -664,4 +684,55 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+/*---------------------------------Estilos galeria de video---------------------------------*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-img{
+    width: 83%;
+    margin:auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.small-img-row{
+    display:flex;
+    background: white;
+    margin: 20px 0;
+    align-items: center;
+    border border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+
+.small-img{
+    position: relative;
+}
+
+.small-img img{
+    width: 150px;
+}
+
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.content{
+    width: 100%;
+    margin-left: 150px;
 }
