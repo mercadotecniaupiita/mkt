@@ -147,6 +147,14 @@ h1, h1, h3, h4, h5, h6{
     text-align: center;
     font-size: 0.9em; 
 }
+/*---------------------------------Estilos contacto---------------------------------*/
+.contact_v1 .container{
+    background: rgb(128,0,64,0.3);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
 
 .main__title{
     font-size: 20px; 
@@ -259,6 +267,9 @@ h1, h1, h3, h4, h5, h6{
 }
 .column--5{
     width:5%;
+}
+.column--20{
+    width:20%;
 }
 /*---------------------------------Estilos del banner---------------------------------*/
 .banner{
@@ -739,4 +750,38 @@ a:hover{
 .content{
     width: 100%;
     margin: auto;
+}
+
+/*---------------------------------Estilos cuadro contacto---------------------------------*/
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;    
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
 }
