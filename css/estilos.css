@@ -1,0 +1,787 @@
+@import url('https://www.dafont.com/caviar-dreams.font');
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    /*background: url(../imagenes/Fondo2.jpg)*/
+}
+    
+/*---------------------------------Estilos base---------------------------------*/
+img{
+   display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h1, h3, h4, h5, h6{
+    margin: 0;
+}  
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container--flex {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+    text-align: center;
+}
+
+/*---------------------------------Estilos header---------------------------------*/
+
+
+/*---------------------------------Estilos main---------------------------------*/
+
+/*---------------------------------Estilos principales---------------------------------*/
+.group--color .container{
+    background: #DDE9FF;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.group--color2 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+/*---------------------------------Estilos Inicio---------------------------------*/
+.inicio_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.inicio_v2 .container{
+    background: rgb(131,132,132,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+/*---------------------------------Estilos unidad 1---------------------------------*/
+.unidad1_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad1_v2 .container{
+    background: rgb(130,119,169,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+/*---------------------------------Estilos unidad 2---------------------------------*/
+.unidad2_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad2_v2 .container{
+    background: rgb(163,199,215,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+
+/*---------------------------------Estilos unidad 3---------------------------------*/
+.unidad3_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.unidad3_v2 .container{
+    background: rgb(196,160,161,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+
+/*---------------------------------Estilos recursos---------------------------------*/
+.recursos_v1 .container{
+    background: white;
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.recursos_v2 .container{
+    background: rgb(173,232,191,0.5);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+/*---------------------------------Estilos contacto---------------------------------*/
+.contact_v1 .container{
+    background: rgb(128,0,64,0.3);
+    color: black;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9em; 
+}
+
+.main__title{
+    font-size: 20px; 
+}
+
+.uni1_title{
+    font-size: 20px; 
+    text-align: center;
+}
+
+.main__txt{
+    font-size: 1.3em; 
+}
+.main__proposito .container{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    
+}
+
+
+.main__Temario .container{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.main__separador .container{
+    padding: 2px;
+    background: black;
+}
+
+.column__title{
+    font-size: 1.3em;
+}
+
+.column__txt2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.main__about__description .column:nth-child(1){
+    padding: 10px;
+    text-align: justify-all;
+}
+
+.main__about__description .column:nth-child(2){
+    padding: 10px;
+    text-align: justify-all;
+}
+
+.main__about__description .column:nth-child(3){
+    padding: 10px;
+    text-align: justify-all;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #FF7C7C;
+    margin: 10px auto;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    /*border-color: #9b9b9b;
+    border-width: 3px;
+    border-style: solid;*/
+    border-radius: 35px;
+}
+
+.main__evaluacion .container{
+    padding-left: 325px;
+}
+/*---------------------------------Estilos del footer---------------------------------*/
+.main-footer{
+    background: #F1F1F1;
+    color: black;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+/*---------------------------------Estilos responsive---------------------------------*/
+.column--50 {
+    width: 50%;
+}
+.column--33{
+    width:33%;
+}
+.column--10{
+    width:10%;
+}
+.column--40{
+    width:40%;
+}
+.column--80{
+    width:80%;
+}
+.column--30{
+    width:30%;
+}
+.column--90{
+    width:90%;
+}
+.column--5{
+    width:5%;
+}
+.column--20{
+    width:20%;
+}
+/*---------------------------------Estilos del banner---------------------------------*/
+.banner{
+    margin-top: -10px;
+    position: relative;
+}
+
+.banner__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---------------------------------Estilos de tablas---------------------------------*/
+.container--table{
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 50px;
+}
+
+.container--table--tem{
+    width: 100%;
+    margin: 10px auto;
+    %box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 60px;
+}
+
+.table__header, .table__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__header{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.table__item{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.table__item1{
+    padding: 5px;
+    font-size: 1.3em;
+    text-align: justify-all;
+}
+
+
+/*---------------------------------Estilos de menu 2---------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color:  gray;
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+header .contenedor {
+    display: table;
+}
+#menu-bar{
+    display: none;
+    
+}
+
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 7px 15px;
+    cursor: pointer;
+    
+}
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgba(255,255,255,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%)
+}
+
+.menu a{
+    display: block;
+    color: gray;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.menu a:hover{
+    background: rgba(221,233,255,0.3);
+}
+h1{
+    float: left;
+}
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+
+@media (min-width:1px){
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display:flex;
+        background: white;
+        
+    }
+
+    header label{
+        display: none;
+    }
+    
+}
+
+/*---------------------------------Estilos del slider 1---------------------------------*/
+
+.container-slider{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: -100%;
+    height: 315px;
+    margin-left: 0%;
+    
+}
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover{
+    background: #fff;
+    
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+/*---------------------------------Estilos del slider 2---------------------------------*/
+
+.container-slider2{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.slider2{
+    display: flex;
+    width: -100%;
+    height: 315px;
+    margin-left: 0%;
+    
+}
+
+.slider__section2{
+    width: 100%;
+}
+
+.slider__img2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn2:hover{
+    background: #fff;
+    
+}
+
+.slider__btn--right2{
+    right: 10px;
+}
+
+.slider__btn--left2{
+    left: 10px;
+}
+
+/*---------------------------------Estilos del slider 3---------------------------------*/
+
+.container-slider3{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.slider3{
+    display: flex;
+    width: -100%;
+    height: 315px;
+    margin-left: 0%;
+    
+}
+
+.slider__section3{
+    width: 100%;
+}
+
+.slider__img3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn3:hover{
+    background: #fff;
+    
+}
+
+.slider__btn--right3{
+    right: 10px;
+}
+
+.slider__btn--left3{
+    left: 10px;
+}
+
+/*---------------------------------Estilos del slider 4---------------------------------*/
+
+.container-slider4{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.slider4{
+    display: flex;
+    width: -100%;
+    height: 315px;
+    margin-left: 0%;
+    
+}
+
+.slider__section4{
+    width: 100%;
+}
+
+.slider__img4{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn4{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn4:hover{
+    background: #fff;
+    
+}
+
+.slider__btn--right4{
+    right: 10px;
+}
+
+.slider__btn--left4{
+    left: 10px;
+}
+
+/*---------------------------------Estilos de texto---------------------------------*/
+
+.Txt_Content{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.Txt_Title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.Txt_Content2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Txt_Title2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Txt_ContentRecursos{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------Estilos galeria de video---------------------------------*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+    align-items: center;
+}
+
+.feature-img{
+    width: 83%;
+    margin:auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.small-img-row{
+    display:flex;
+    background: white;
+    margin: 20px 0;
+    align-items: center;
+    border border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+
+.small-img{
+    position: relative;
+}
+
+.small-img img{
+    width: 150px;
+}
+
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+}
+
+/*---------------------------------Estilos cuadro contacto---------------------------------*/
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;    
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
