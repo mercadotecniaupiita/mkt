@@ -323,7 +323,6 @@ h1, h1, h3, h4, h5, h6{
     text-align: justify-all;
 }
 
-
 /*---------------------------------Estilos de menu 2---------------------------------*/
 * {
     margin: 0;
@@ -548,7 +547,6 @@ h1{
     width: -100%;
     height: 315px;
     margin-left: 0%;
-    
 }
 
 .slider__section3{
@@ -783,4 +781,51 @@ textarea{
     form{
         width: 100%;
     }
+}
+
+/*Estilos del slider*/
+
+.contenedorslider{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider2{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.bot{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    -webkit-transition: all 0.15s ease;
+    -o-transition: all 0.15s;
+    transition: all 0.15s ease;
+
+}
+
+.bot:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+.atr{
+    left: 20%;
+    top: calc(50% - 50px);
+}
+
+.ade{
+    right: 20%;
+    top: calc(50% - 50px);
 }
