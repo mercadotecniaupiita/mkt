@@ -696,91 +696,22 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-/*---------------------------------Estilos galeria de video---------------------------------*/
-
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+/* Estilos de frases*/
+.frases{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(130,119,169,0.5);
 }
 
-.col{
-    flex-basis: 50%;
-    min-width: 250px;
-    align-items: center;
-}
-
-.feature-img{
-    width: 83%;
-    margin:auto;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.small-img-row{
-    display:flex;
-    background: white;
-    margin: 20px 0;
-    align-items: center;
-    border-radius: 6px;
-    overflow: hidden;
-    width: 85%;
-}
-
-.small-img{
-    position: relative;
-}
-
-.small-img img{
-    width: 150px;
-}
-
-.small-img-row p{
-    margin-left: 20px;
-    color: #707070;
-    line-height: 22px;
-    font-size: 15px;
-}
-
-.content{
-    width: 100%;
-    margin: auto;
-}
-
-/*---------------------------------Estilos cuadro contacto---------------------------------*/
-form{
-    width: 450px;
-    margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
-}
-
-input, textarea{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;    
-    font-size: 17px;
-}
-
-textarea{
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-}
-#boton:hover{
-    cursor: pointer;
-}
-
-@media (max-width:480px){
-    form{
-        width: 100%;
-    }
+.autores{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*Estilos del slider*/
@@ -792,6 +723,19 @@ textarea{
 }
 
 .contenedorslider2{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+
+.contenedorslider3{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider4{
     width: 100%;
     position: relative;
     height: 350px;
