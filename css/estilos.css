@@ -703,7 +703,8 @@ a:hover{
     text-decoration: none;
     font-style: italic;
     text-align: center;
-    background-color: rgba(130,119,169,0.5);
+    text-decoration: underline;
+     /* rgba(130,119,169,0.5); */
 }
 
 .autores{
