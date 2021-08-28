@@ -880,7 +880,6 @@ a:hover{
 .iconos-inicio{
     display: flex;
     justify-content: center;
-    margin: 30px 10% 30px
 }
 
 .iconos-inicio div{
@@ -901,6 +900,6 @@ a:hover{
     border-radius: 2%;
 }
 
-.body-inicio{
+.main{
     background-color: rgba(157,36,73,1);;
 }
