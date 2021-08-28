@@ -866,10 +866,37 @@ a:hover{
     margin-bottom: 30px;
 }
 
+
 .documentales p{
     margin-top: 20px;
 }
 
 .documentales div :hover{
     transform: scale(1.2);
+}
+
+/* Estilos corregidos del inicio */
+
+.iconos-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10% 30px
+}
+
+.iconos-inicio div{
+    padding: 20px;
+    width: 30%;
+}
+
+.iconos-inicio a img{
+    transition: all 0.8s;
+}
+
+.iconos-inicio a :hover{
+    transform: scale(1.2);
+    border: solid 3px #FF7C7C;
+}
+
+.iconos-inicio img{
+    border-radius: 50%;
 }
