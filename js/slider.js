@@ -1,5 +1,5 @@
-var videos11 = ['https://www.youtube.com/embed/OVOALkqShBw','https://www.youtube.com/embed/Jyxr2SduCFQ'];
-var videos12 = ['https://www.youtube.com/embed/bwzd99aweAc','https://www.youtube.com/embed/QpUv10XEnCE'];
+var videos11 = ['https://www.youtube.com/embed/OB9FedWEmRE','https://www.youtube.com/embed/Jyxr2SduCFQ'];
+var videos12 = ['https://www.youtube.com/embed/iOoIo5h4-8Y','https://www.youtube.com/embed/QpUv10XEnCE'];
 var videos13 = ['https://www.youtube.com/embed/J11LmEAoHdM','https://www.youtube.com/embed/yCXU_nOE8Ww'];
 var videos14 = ['https://www.youtube.com/embed/gIxRkx2IH3E','https://www.youtube.com/embed/Mc6jNB7qkik'];
 cont = 0;
