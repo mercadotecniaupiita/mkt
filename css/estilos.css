@@ -894,9 +894,13 @@ a:hover{
 
 .iconos-inicio a :hover{
     transform: scale(1.2);
-    border: solid 3px #FF7C7C;
+    border: solid 3px #fff;
 }
 
 .iconos-inicio img{
-    border-radius: 50%;
+    border-radius: 2%;
+}
+
+.body-inicio{
+    background-color: rgba(157,36,73,1);;
 }
