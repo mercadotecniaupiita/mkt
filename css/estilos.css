@@ -900,6 +900,30 @@ a:hover{
     border-radius: 2%;
 }
 
-.main{
+.main-inicio{
     background-color: rgba(157,36,73,1);;
+}
+
+/* Estilos de tablas */
+.datos-tabla{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.datos-tabla th{
+    background-color: rgb(130,119,169,0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.rellena-celda{
+    text-align: center;
+    font-weight: bold;
+}
+
+.datos-tabla td{
+    background-color: rgb(130,119,169,0.5);
+    padding: 10px;
 }
