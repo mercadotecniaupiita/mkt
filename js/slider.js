@@ -1,7 +1,8 @@
-var videos11 = ['https://www.youtube.com/embed/OB9FedWEmRE','https://www.youtube.com/embed/Jyxr2SduCFQ'];
+var videos11 = ['https://www.youtube.com/embed/OB9FedWEmRE','https://www.youtube.com/embed/Q6QaELpGwgo'];
 var videos12 = ['https://www.youtube.com/embed/iOoIo5h4-8Y','https://www.youtube.com/embed/QpUv10XEnCE'];
-var videos13 = ['https://www.youtube.com/embed/J11LmEAoHdM','https://www.youtube.com/embed/yCXU_nOE8Ww'];
-var videos14 = ['https://www.youtube.com/embed/gIxRkx2IH3E','https://www.youtube.com/embed/Mc6jNB7qkik'];
+var videos13 = ['https://www.youtube.com/embed/m2t0ZkiWihg','https://www.youtube.com/embed/J11LmEAoHdM'];
+var videos14 = ['https://www.youtube.com/embed/5xGoNUkHpZQ','https://www.youtube.com/embed/gIxRkx2IH3E'];
+
 cont = 0;
 
 function carrusel(contenedorslider){
@@ -136,11 +137,13 @@ function carrusel4(contenedorslider){
     });
 }
 
+
 document.addEventListener("DOMContentLoaded", () =>{
     let contenedor = document.querySelector('.contenedorslider');
     let contenedor2 = document.querySelector('.contenedorslider2');
     let contenedor3 = document.querySelector('.contenedorslider3');
     let contenedor4 = document.querySelector('.contenedorslider4');
+    
     carrusel(contenedor);
     carrusel2(contenedor2);
     carrusel3(contenedor3);

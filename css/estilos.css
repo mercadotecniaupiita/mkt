@@ -703,7 +703,6 @@ a:hover{
     text-decoration: none;
     font-style: italic;
     text-align: center;
-    text-decoration: underline;
      /* rgba(130,119,169,0.5); */
 }
 
@@ -784,6 +783,24 @@ a:hover{
 }
 
 .contenedorslider4{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider21{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider22{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider23{
     width: 100%;
     position: relative;
     height: 350px;
@@ -926,4 +943,27 @@ a:hover{
 .datos-tabla td{
     background-color: rgb(130,119,169,0.5);
     padding: 10px;
+}
+
+.datos-tabla2{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.datos-tabla2 th{
+    background-color: rgb(163,199,215,0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.datos-tabla2 td{
+    background-color:rgb(163,199,215,0.5);;
+    padding: 10px;
+}
+
+.tabla2{
+    display: flex;
+    justify-content: center;
 }
