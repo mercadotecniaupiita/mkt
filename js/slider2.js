@@ -1,7 +1,7 @@
 var videos21 = ['https://www.youtube.com/embed/iEnwxNJL_uo','https://www.youtube.com/embed/dViW3iyoq0M','https://www.youtube.com/embed/Q6QaELpGwgo','https://www.youtube.com/embed/kZPPoPMwrIE'];
 var videos22 = ['https://www.youtube.com/embed/nQxo9fx44Co','https://www.youtube.com/embed/O1ikaVmS18A', 'https://www.youtube.com/embed/qz0hww6LzsY','https://www.youtube.com/embed/f5jbors1SH4'];
 var videos23 = ['https://www.youtube.com/embed/7wdH2w48JZc','https://www.youtube.com/embed/qxytpDtTzyo'];
-var videos24 = ['https://www.youtube.com/embed/7wdH2w48JZc','https://www.youtube.com/embed/qxytpDtTzyo'];
+var videos24 = ['https://www.youtube.com/embed/ON2_v7GrDE0'];
 cont = 0;
 
 function carrusel21(contenedorslider21){
