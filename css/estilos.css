@@ -812,6 +812,18 @@ a:hover{
     height: 350px;
 }
 
+.contenedorslider31{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
+.contenedorslider32{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
 .bot{
     font-size: 30px;
     width: 70px;
@@ -1003,6 +1015,21 @@ a:hover{
 }
 
 .cuadro-recursos2{
+    border: solid 2px white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.cuadro-recursos31{
+    border: solid 2px rgb(196,160,161,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cuadro-recursos32{
     border: solid 2px white;
     padding: 20px;
     border-radius: 10px;
