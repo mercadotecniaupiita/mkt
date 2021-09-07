@@ -1,6 +1,7 @@
 var videos21 = ['https://www.youtube.com/embed/iEnwxNJL_uo','https://www.youtube.com/embed/dViW3iyoq0M','https://www.youtube.com/embed/Q6QaELpGwgo','https://www.youtube.com/embed/kZPPoPMwrIE'];
 var videos22 = ['https://www.youtube.com/embed/nQxo9fx44Co','https://www.youtube.com/embed/O1ikaVmS18A', 'https://www.youtube.com/embed/qz0hww6LzsY','https://www.youtube.com/embed/f5jbors1SH4'];
 var videos23 = ['https://www.youtube.com/embed/7wdH2w48JZc','https://www.youtube.com/embed/qxytpDtTzyo'];
+var videos24 = ['https://www.youtube.com/embed/7wdH2w48JZc','https://www.youtube.com/embed/qxytpDtTzyo'];
 cont = 0;
 
 function carrusel21(contenedorslider21){
@@ -102,13 +103,48 @@ function carrusel23(contenedorslider23){
     });
 }
 
+function carrusel24(contenedorslider24){
+    contenedorslider24.addEventListener('click', e =>{
+        let atr = contenedorslider24.querySelector('.atr');
+        let ade = contenedorslider24.querySelector('.ade');
+        let img = contenedorslider24.querySelector('.vid');
+        let tgt = e.target;
+
+
+        if(tgt === atr){
+            if(cont > 0){
+                img.src = videos24[cont - 1];
+                cont --;
+            }
+            else{
+                img.src = videos24[videos24.length-1];
+                cont = videos24.length - 1;
+            }
+        }
+        else if (tgt === ade){
+            if(cont < videos24.length - 1){
+                img.src = videos24[cont + 1];
+                cont ++;
+            }
+            else{
+                img.src = videos24[0];
+                cont = 0;
+            }
+
+        }
+
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () =>{
 
     let contenedor21 = document.querySelector('.contenedorslider21');
     let contenedor22 = document.querySelector('.contenedorslider22');
     let contenedor23 = document.querySelector('.contenedorslider23');
+    let contenedor24 = document.querySelector('.contenedorslider24');
     carrusel21(contenedor21);
     carrusel22(contenedor22);
     carrusel23(contenedor23);
+    carrusel24(contenedor24);
 
 });

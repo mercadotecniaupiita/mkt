@@ -806,6 +806,12 @@ a:hover{
     height: 350px;
 }
 
+.contenedorslider24{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
+
 .bot{
     font-size: 30px;
     width: 70px;
@@ -959,11 +965,46 @@ a:hover{
 }
 
 .datos-tabla2 td{
-    background-color:rgb(163,199,215,0.5);;
+    background-color:rgb(163,199,215,0.5);
     padding: 10px;
 }
 
 .tabla2{
     display: flex;
     justify-content: center;
+}
+
+.recursos-link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    
+}
+
+/* Estilos cuadros de recursos */
+.cuadro-recursos11{
+    border: solid 2px rgb(130,119,169,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cuadro-recursos12{
+    border: solid 2px white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cuadro-recursos{
+    border: solid 2px rgb(163,199,215,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cuadro-recursos2{
+    border: solid 2px white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
